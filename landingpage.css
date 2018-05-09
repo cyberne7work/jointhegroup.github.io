@@ -1,0 +1,59 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #f4f7fc;
+
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("https://a.ltrbxd.com/resized/sm/upload/cw/9j/d9/kp/the-social-network-1200-1200-675-675-crop-000000.jpg?k=49db137dc6");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+header.startup h1 {
+  font-size: 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #4286f4;
+  border-color: #1d2533; }
+
+.btn-primary:hover {
+  background-color: #91f2b4;
+  border-color: #f9f9f9;
+  border-width: 5px;
+  cursor: pointer;
+}
